@@ -1,0 +1,132 @@
+/* Importando fonts do Google */
+/* Fonts: Josefin Salb e Reem Kufi Ink */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Reem+Kufi+Ink&display=swap');
+
+/* Retirando todas as margins e paddings do página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aterando o tamanho da imagem e colocando uma raio na borda */
+#img {
+    max-width: 8rem;
+    border-radius: 10rem;
+    margin-top: -4rem;
+    border: 5px solid #fff;
+}
+
+/* Deixando todos dentro do main centralizado */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006edd;
+    font-family: 'Reem Kufi Ink';
+}
+
+/* Dando um espaçamento entre o topo e o main, aumentando o tamanho, inserindo uma cord e deixando a borda arredondada */
+main {
+    margin-top: 5.3rem;
+    margin-bottom: 3rem;
+    height: 40rem;
+    background-color: #fff;
+    width: 40rem;
+    border-radius: 50px;
+    color: #555555;
+}
+
+/* Deixando tudo que tem dentro das divs centralizado */
+div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Colocando a descrição um pouco separado em cima e com uma largura fixa */
+#descricao {
+    margin-top: 2rem;
+    max-width: 28rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+/* Dando um espaçamento entre o título e o subtitulo */
+#subtitle {
+    margin-top: 0.1rem;
+    color: black;
+}
+
+/* Espaçamento entre a foto */
+#title {
+    margin-top: 1rem;
+    max-width: 30rem;
+    color: black;
+}
+
+/* Espaçamento de um parágrafo específico */
+#para {
+    width: 150%;
+}
+
+/* Adicionando a font "Josefin Sans" e alterando tamanho da fonte e a cor */
+#work, #edu{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+/* Colocando o texto centralizado e adicionando um espaçamento */
+.teste p {
+    width: 80%;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.teste {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+#divRedesSociais {
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+}
+
+#divRedesSociais img {
+    margin-top: 0.5rem;
+    max-width: 2.4rem;
+    border-radius: 10rem;
+}
+
+#redesSociais {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 3rem;
+}
+
+#call {
+    margin-top: 1.5rem;
+    flex-direction: column;
+}
+
+#call a{
+    text-decoration: none;
+    margin-top: 0.5rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: black;
+}
+
+#call a:hover {
+    transition: 0.1s;
+    background-color: black;
+    color: #fff;
+}
+
+#work and #edu{
+    font-weight: bolder;
+}
