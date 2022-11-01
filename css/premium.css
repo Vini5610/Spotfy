@@ -1,0 +1,279 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+    text-decoration: none;
+    /*outline: .2px solid red;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding: 16px 120px;
+    width: 100%;
+    background: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 8px;
+    list-style: none;
+}
+
+.nside1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.nside2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.divisor {
+    width: 1px;
+    height: 20px;
+    margin: 0 20px;
+    background: white;
+}
+
+.header-container nav a {
+    font-size: 17px;
+    color: white;
+}
+
+.header-container nav a:hover {
+    transition: .1s;
+    color: #9bf0e1;
+}
+
+#first-section {
+    height: 65vh;
+    width: 100%;
+}
+
+.fs-container {
+    height: 100%;
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #cc00ff;
+}
+
+.fs-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+    margin: 0 40px;
+    height: 100%;
+}
+
+.fs-left h1 {
+    font-size: 38px;
+    color: white;
+}
+
+.fs-left h3 {
+    font-family: 'Gotham Light', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.fs-container-right-img {
+    width: 400px;
+}
+
+.fs-container-right-img img {
+    width: 100%;
+}
+
+#second-section {
+    height: 75vh;
+    width: 100%;
+}
+
+.ss-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ss-container.wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+    row-gap: 25px;
+}
+
+.premium-benefits.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ss-container.wrapper h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 38px;
+}
+
+.premium-benefits.list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.premium-benefits.list li img {
+    width: 150px;
+}
+
+.premium-info {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+#third-section {
+    height: 130vh;
+    width: 100%;
+}
+
+.ts-container {
+    padding: 90px 20px 30px 20px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.cardlist.item {
+    width: 30px;
+}
+
+.cardlist.item img {
+    width: 100%;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.top-content h1 {
+    color: black;
+    font-size: 34px;
+}
+
+.top-content p {
+    color: black;
+    font-size: 14px;
+}
+
+.cardlist.container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.paymentcard.container {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.paymentcard.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 5px 30px 5px;
+    background: white;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+}
+
+.paymentcard.topinfo {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 70px;
+}
+
+.paymentinfo.month {
+    border-radius: 5px;
+    font-family: "Gotham Black", sans-serif;
+    padding: 5px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+.paymentinfo.title {
+    font-size: 22px;
+}
+
+.paymentcard.middleinfo {
+    width: 270px;
+    border-top: 1.5px solid #0000006b;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 120px;
+}
+
+.paymentcard.infolist.item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.paymentcard.infolist.item i {
+    font-size: 22px;
+}
