@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My CSS Objects -->
+    <link rel="stylesheet" href="css/myobj.css">
+    <!-- This Document CSS -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Logo -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Spotify</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="spotifylogo">
+                <a href="index.html">
+                    <img src="imagens-baixar/spotifyPreto.png" alt="spotify logo" width="150">
+                </a>
+            </div>
+        </div>
+    </header>
+    <section id="mainsection">
+        <div class="mainsectionwrapper">
+            <div class="top-buttons">
+                <h5>Para continuar, faça login no Spotify.</h5>
+                <button class="round-button big" style="background-color: #3b5998; width: 340px; cursor: default;">CONTINUAR COM O FACEBOOK</button>
+                <button class="round-button big" style="background-color: #000000e6; width: 340px; cursor: default;">CONTINUAR COM A APPLE</button>
+                <button class="round-button big" style="background-color: white; color: #6a6a6a; border: 1px solid #6a6a6a; width: 340px; cursor: default;">CONTINUAR COM O GOOGLE</button>
+                <button class="round-button big" style="background-color: white; color: #6a6a6a; border: 1px solid #6a6a6a; width: 340px; cursor: default;">CONTINUAR COM O NÚMERO DE TELEFONE</button>
+            </div>
+            <h5>OU</h5>
+            <div class="login-form">
+                <form>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <h5>Endereço de e-mail ou nome de usuário</h5>
+                            <input type="text" id="emailoruser" placeholder="Endereço de e-mail ou nome de usuário" required>
+                        </div>
+                        <div class="input-box">
+                            <h5>Senha</h5>
+                            <input type="password" id="password" placeholder="Senha" required>
+                        </div>
+                    </div>
+                    <a href="#" id="forgotpass">Esqueceu sua senha?</a>
+                    <div class="remembermebox">
+                        <input type="checkbox" id="remembermecheck">
+                        <label for="remembermecheck">Lembrar de mim</label>
+                        <center>
+                    </div>
+                    <a href="index.html"><button id="loginbtn">ENTRAR</button></a>
+                </form></center>
+                <hr>
+            </div>
+            <div class="guest">
+                <h4>Não tem uma conta?</h4>
+                <a class="round-button big" style="background-color: white; color: #6a6a6a; border: 1px solid #6a6a6a; width: 340px; cursor: default;" href="registro.html">INSCREVER-SE NO SPOTIFY</a>
+            </div>
+        </div>
+    </section>
+    <script src="java_script/teste.js"></script>
+</body>
+</html>
