@@ -1,0 +1,99 @@
+
+
+#fundoVerde {
+    background-color: rgb(25, 230, 140);
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.elementos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.elementos h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 22px;
+}
+
+.elementos p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.elementos button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.elementos button:hover{
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+#fundoBranco{
+    position: relative;
+    text-align: center;
+    height: 340px;
+    border: 1px solid black;
+}
+
+#fundoBranco h2{
+    font-size: 30px;
+    width: 900px;
+    margin: 30px;
+}
+
+
+.plataforma{
+    height: 40px;
+    margin-right: 15px;
+}
+
+#fundoCinza{
+    position: relative;
+    background-color: #262626;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+#fundoCinza h2{
+    font-size: 30px;
+    width: 1150px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#fundoCinza ul{
+    display: flex;
+    width: 1180px;
+    list-style: none;
+}
+
+
+#fundoCinza li{
+    margin-right: 40px;
+}
+
+#fundoCinza li::before {
+    content: "•"; color: green;
+    margin-right: 12px;
+}
+
+#fundoCinza ul:first-child{
+    list-style: none;
+}
+
+#fundoCinza .verdinho a{
+    color: rgb(54, 211, 80);
+}
