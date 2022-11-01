@@ -1,0 +1,46 @@
+.round-button.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Gotham Black', sans-serif;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    width: 240px;
+    height: 50px;
+}
+
+.round-button.big:hover {
+    transition: .1s;
+    border: 1px solid #141414;
+}
+
+.round-button.normal.nobg {
+    cursor: pointer;
+    font-family: 'Gotham Black', sans-serif;
+    color: white;
+    background: transparent;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 170px;
+    height: 50px;
+}
+
+.round-button.normal.nobg:hover {
+    transition: .1s;
+    transform: scale(102%);
+}
+
+.small-letters.info {
+    font-size: 13px;
+    color: white;
+}
+
+.small-letters.info a {
+    color: white;
+    text-decoration: underline;
+}
