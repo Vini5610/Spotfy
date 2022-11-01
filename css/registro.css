@@ -1,0 +1,125 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+:root {
+    --pink: #ff4169;
+    --purple: #7c26f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+    text-decoration: none;
+    /*outline: .2px solid red;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding: 16px 120px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mainsectionwrapper {
+    padding: 25px 5px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    height: 100%;
+    width: 50%;
+}
+
+.top-buttons {
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+.register-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px 15px 15px;
+    row-gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-box input {
+    outline: none;
+    border-radius: 5px;
+    border: .5px solid #6a6a6a;
+    padding: 15px 10px 15px 15px;
+    width: 350px;
+}
+
+.input-box input:hover {
+    border: .5px solid black;
+}
+
+.gender-radios {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.checkbox-reg input {
+    accent-color: #1ed760;
+}
+
+#regbtn {
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #1ed760;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 35px;
+}
