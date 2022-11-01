@@ -1,0 +1,561 @@
+/* Layout*/
+
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: white;
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+body#sup{
+	background: linear-gradient(177deg, #35ed76, #121212 25%);
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+/* fim layout*/
+
+/* Barra de navegação*/
+nav.navbar-transparente {
+	padding: 15px 0px;
+	position: fixed;
+	background: rgba(0,0,0);
+	align-items: center;
+	font-weight: 700;
+	
+}
+
+nav.navbar-transparente#sup {
+	padding: 15px 0px;
+	position: relative;
+	background: rgba(0,0,0, 0);
+	align-items: center;
+	font-weight: 700;
+	
+}
+
+nav.navbar-transparente#baixar {
+	padding: 15px 0px;
+	position: relative;
+	background: rgba(0,0,0);
+	align-items: center;
+	font-weight: 700;
+	
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+	color: green;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+/* fim barra de navegaçao*/
+
+/* Estrutura conteúdos*/
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+/* Rodapé*/
+
+footer {
+	background: #000;
+	padding: 50px 0px 100px 0px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+footer#suporte {
+	background: #121212;
+	padding: 50px 0px 100px 0px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #1ed760;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+/* Tipografia*/
+
+/* suporte */
+
+section#Atendimento h1 {
+	font-weight: 900;
+	font-size: 70px;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+section#Atendimento{
+	position: relative;
+	text-align: left;
+	width: 596px;
+	color: #fff;
+	margin-top: -20px;
+	padding: 6% 0px 0px 0px;
+}
+
+section#opcoes{
+	position: relative;
+	text-align: left;
+	width: 596px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+section#opcoes img{
+	margin: 15px 5px 0px 0px;
+}
+
+section#Atendimento p{
+	color: #A7A7A7;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+section#Atendimento p#a{
+	color: #A7A7A7;
+	font-size: 24px;
+}
+
+section#Atendimento p#a a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+input#buscar[type=text] {
+	margin: 15px 0px 5px 0px;
+	height: 30px;
+	width: 596px;
+}
+
+section#opcoes_rapidas{
+	position: relative;
+	color: #fff;
+	background-color: #242424;
+	width: 100%;
+	padding: 15px 0px 30px 385px;
+	font-weight: 700;
+}
+
+section#opcoes_rapidas h1{
+	font-size:medium;
+	margin: 20px 0px 15px 38px;
+}
+
+section#opcoes_rapidas button{
+	margin: 20px 0px 0px 28px;
+	font-size: medium;
+	width: 596px;
+	text-align: left;
+	background-color: #242424;
+}
+
+section#opcoes_rapidas button:hover{
+	text-decoration: underline;
+}
+
+section#opcoes_rapidas span#espaco{
+	position: absolute;
+	left: 1000px;
+}
+
+section#comunidade{
+	padding-top: 60px;
+	background-color: #121212;
+	width: 100%;
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+section#comunidade	h1{
+	font-size: 48px;
+	font-weight: 700;
+}
+
+section#comunidade p#comu_sub{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+section#comunidade button{
+	padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+	color: black;
+	width: auto;
+	background-color:  #1fdf64;
+	font-weight: 700;
+}
+
+section#comunidade button:hover{
+	transform: scale(1.1);
+}
+
+/* fim*/
+
+/* div Index*/
+
+.sectionone#Index{
+	background-color: rgb(29, 117, 222);
+	color: #fff;
+	margin-top: 80px;
+	top: 80px;
+	height: 400px;
+	width: 100%;
+	font-size: 11px;
+	padding-top: 6%;
+	padding-bottom: 80px;
+	padding-left: 3%;
+	margin-bottom: 0px;
+}
+
+button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	color: white;
+	background-color: #000;
+}
+
+.sectionone#Index h1{
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.sectionone#Index h2{
+	font-size: 24px;
+}
+
+.sectionone#Index .container#button{
+	font-size: 14px;
+	margin-bottom: 80px;
+}
+
+.sectionone#Index .container#button a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.sectionone#Index .container#button button#comecar{
+	width: 140px;
+	height: 51px;
+	font-weight: 600;
+	border-radius: 25px;
+	margin-bottom: 40px;
+	padding-right: 10px;
+	margin-top: 25px;
+	background-color: #191414;
+}
+
+.sectionone#Index .container#button button#comecar:hover{
+	width: 145px;
+	font-size: 16px;
+	height: 55px;
+	margin-bottom: 0px;
+}
+
+.sectionone#Index .container#button button#planos{
+	width: 140px;
+	height: 51px;
+	font-weight: 600;
+	border-radius: 25px;
+	margin-bottom: 40px;
+	margin-right: 10px;
+	margin-top: 25px;
+	background:rgb(29, 117, 222);
+	border: #fff 2px solid;
+}
+
+.sectionone#Index .container#button button#planos:hover{
+	background:rgb(26, 96, 182);
+	font-size: 16px;
+	width: 145px;
+	height: 55px;
+	margin-bottom: 0px;
+}
+
+.sectiontwo#planos{
+	display: block;
+	padding-top: 50px;
+	text-align: center;
+	color: #000;
+}
+
+
+.sectiontwo#planos ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.sectiontwo#planos ul li{
+	width: 50%;
+	padding-top: 50px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.sectiontwo#planos img{
+	width: 142px;
+	height: 142px;
+}
+
+.sectiontwo#planos h1{
+	font-weight: 900;
+}
+
+/* fim*/
+
+/* baixar */
+
+body#bai{
+	color: #fff;
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+img#baixarlap{
+	width: 136px;
+	height: 80px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+}
+
+button#gf{
+    padding: 7px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+	color: black;
+	width: 100px;
+	height: 48px;
+	background-color: #fff;
+}
+
+button#gf:hover{
+	background-color: #1ed760;
+	animation-name: 3s;
+	color: #fff;
+}
+
+p#baixar{
+	font-size: 48px;
+}
+
+p#baixar_p{
+	font-size: 16px;
+}
+
+p#baixar_p2{
+	font-size: 32px;
+}
+
+
+
+section#Baixar3 h3{
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: white;
+	margin: 70px 0px 10px;
+}
+
+body#bai section#Baixar1{
+	position: relative;
+	text-align: center;
+	padding: 6%;
+	width: auto;
+	background-color: rgb(25, 230, 140);
+	color: #000;
+}
+
+section#Baixar2{
+	position: relative;
+	text-align: center;
+	width: auto;
+	color: #000;
+}
+
+section#Baixar3{
+	position: relative;
+	text-align: center;
+	background-color: rgb(34, 35, 38);
+	padding: 6%;
+	width: auto;
+	color: #000;
+}
+
+section#Baixar3 ul{
+	display: flex;
+    list-style-type: none;
+	margin: 70px 15px 0px 40px;
+	font-size: large;
+	font-weight: 700;
+}
+
+section#Baixar3 ul li{
+    padding-bottom: 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+section#Baixar3 span#espaco{
+	margin: 0px 15px 9px 15px;
+	padding: 0%;
+	color: rgb(29, 185, 84);
+}
+
+img#plataformas{
+	width: 147px;
+	height: 57px;
+	margin: -8px;
+}
+
+img#plataformas2{
+	width: 119px;
+	height: 40px;
+}
+
+img#plataformas3{
+	width: 111px;
+	height: 40px;
+}
+
+/* fim*/
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 1em;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+@font-face {
+	font-family: Roboto_regular;
+	src: url(roboto.woff);
+}
