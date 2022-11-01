@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My CSS Objects -->
+    <link rel="stylesheet" href="css/myobj.css">
+    <!-- This Document CSS -->
+    <link rel="stylesheet" href="css/registro.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Logo -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="spotifylogo">
+                <a href="index.html">
+                    <img src="imagens/spotify.png" alt="spotify logo" width="150">
+                </a>
+            </div>
+        </div>
+    </header>
+    <section id="mainsection">
+        <div class="mainsectionwrapper">
+            <div class="top-buttons">
+                <h2>Inscreva-se grátis e comece a curtir.</h2>
+                <button class="round-button big"
+                    style="background-color: #3b5998; width: 340px; cursor: default;">CONTINUAR COM O FACEBOOK</button>
+                <button class="round-button big"
+                    style="background-color: white; color: #6a6a6a; border: 1px solid #6a6a6a; width: 340px; cursor: default;">CONTINUAR
+                    COM O GOOGLE</button>
+            </div>
+            <h5>O U</h5>
+            <div class="register-form">
+                <form>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <h5>Qual é seu e-mail?</h5>
+                            <input type="email" id="emailoruser" placeholder="Insira seu e-mail." required>
+                            <a href="#" style="text-decoration: underline;">Usar número de telefone</a>
+                        </div>
+                        <div class="input-box">
+                            <h5>Confirme seu e-mail</h5>
+                            <input type="email" id="confirmmail" placeholder="Insira seu e-mail novamente." required>
+                        </div>
+                        <div class="input-box">
+                            <h5>Crie uma senha</h5>
+                            <input type="password" id="regpassword" placeholder="Crie uma senha." required>
+                        </div>
+                        <div class="input-box">
+                            <h5>Como devemos chamar você?</h5>
+                            <input type="text" id="regpassword" placeholder="Insira um nome de perfil" required>
+                            <h5 style="font-weight: 300;">Isso aparece no seu perfil.</h5>
+                        </div>
+                        <div class="input-box">
+                            <h5>Qual sua data de nascimento?</h5>
+                            <input type="date">
+                        </div>
+                        <div class="input-box">
+                            <h5>Qual é o seu gênero?</h5>
+                            <div class="gender-radios">
+                                <input type="radio" id="masc" name="gender" value="masc">
+                                <label for="masc">Masculino</label>
+                                <input type="radio" id="fem" name="gender" value="fem">
+                                <label for="fem">Feminino</label>
+                                <input type="radio" id="nb" name="gender" value="nb">
+                                <label for="nb">Não binário</label>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Outros</label>
+                                <input type="radio" id="pnd" name="gender" value="pnd">
+                                <label for="pnd">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox-reg">
+                        <input type="checkbox" id="opt1">
+                        <label for="opt1">Não quero receber mensagens de marketing do Spotify</label>
+                    </div>
+                    <div class="checkbox-reg">
+                        <input type="checkbox" id="opt2">
+                        <label for="opt2">Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.</label>
+                    </div>
+                    <div class="checkbox-reg">
+                        <input type="checkbox" id="opt3">
+                        <label for="opt3">Eu concordo com os <a href="#" style="text-decoration: underline; color: #1ed760;">Termos e Condições de Uso do Spotify.</a>
+                        </label>
+                    </div>
+                    <h5>Para saber mais sobre como o Spotify coleta, utiliza, compartilha e protege seus dados pessoais, leia a <a href="#" style="text-decoration: underline; color: #1ed760;">Política de Privacidade do Spotify</a>.</h5>
+                    <button  id="regbtn">Inscrever-se</button>
+                </form>
+            </div>
+            <h4>Já tem uma conta? <a href="login.html" style="text-decoration: underline; color: #1ed760;">Faça login</a>.</h4>
+        </div>
+    </section>
+    <script src="java_script/teste.js"></script>
+</body>
